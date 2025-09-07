@@ -1,0 +1,12 @@
+
+
+
+piyasa_anlik klasöründeki piyasa_anlik_app.py doyasındaki llm model yapısını ve turkiye_report_watcher klasöründeki main_watcher.py dosyasındaki telegram bağlantı yapısını referansa alarak aşağıda istediğim uygulamayı hazırla.
+---
+
+telegram dan piyasa verileridnden istediklerimi sorduğumda telegram benim bir vm sunucuda bulunan bu uygulamam bağlanacak. uygulama gelen isteği ve 
+https://uky2iqnwpi.execute-api.eu-central-1.amazonaws.com/prod/data adresinde bulunan json verisini llm modeline gönrerek iztene veriyi ayıklayıp geri dönderecek
+ve uygulalam telegrama istenen piyasa verilerini gönderecek.
+
+
+bu yeni uygulamayı ana dizinde bulunan tele_piyasa.py dosyasına yaz.
